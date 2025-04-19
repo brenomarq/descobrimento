@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #5B7F58;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header div {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  ul li {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  ul li:hover {
+    color: white; /* Efeito hover */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #423F3E;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #222020;
+  }
+
+  .principal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    margin: 70px;
+    gap: 50px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .sub-titulo{
+    font-size: 30px;
+    color: #5B7F58;
+    margin-top: 30px;
+  }
+
+  .secao-texto{
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+  }
+
+  .secao-texto .secao-textop{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #5B7F58;
+    gap: 40px;
+  }
+
+  .hab-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .hab-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 70px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex
+;
+    gap: 10px;
+}
+  
+  .hab-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #5B7F58;
+  }
+
+  .outro{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    gap: 30px;
+  }
+
+  .outro h3{
+    font-size: 30px;
+    color: #5B7F58;
+
+  }
+  .outro p{
+    font-size: 18px;
+    color: #5B7F58;
+  }
+  
+  
+  
+
+
+
+  
