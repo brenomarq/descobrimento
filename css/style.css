@@ -1,163 +1,154 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    color: white;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .interface {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 4%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 4%;
 }
 
-.flex{
-    display: flex;
-    gap: 100px;
+.flex {
+  display: flex;
+  gap: 100px;
 }
-
-
 
 header {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 header > .interface {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header a {
-    color: #5c5c5c;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
+  color: #5c5c5c;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
 }
 
 header a:hover {
-    color: #fff;
-    transform: scale(1.09);
+  color: #fff;
+  transform: scale(1.09);
 }
 
 header nav ul {
-    text-align: center;
-    width: 100%;
-    list-style-type: none;
+  text-align: center;
+  width: 100%;
+  list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
-    padding: 0 70px;
+  display: inline-block;
+  padding: 0 70px;
 }
 header .contato button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: chartreuse;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .3s;
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: chartreuse;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 header .contato button:hover {
-    box-shadow: 0px 0px 8px rgb(128, 255, 0);
+  box-shadow: 0px 0px 8px rgb(128, 255, 0);
 }
 
-.Rd{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover; 
-    border: 3px solid white; 
+.Rd {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
 }
 
-section.topo{
-    padding: 30px 4%;
+section.topo {
+  padding: 30px 4%;
 }
 
-section.topo.flex{
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
+section.topo.flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
 }
 
-.topo h1{
-    font-size: 40px ;
-    line-height: 40px;
-    margin-bottom: 20px;
+.topo h1 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
 }
 
-.topo.txt p{
-    margin: 40px 0px;
+.topo.txt p {
+  margin: 40px 0px;
 }
 
-.img img{
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
-
+.img img {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-@keyframes flutuar{
-    0%{
-        top: 0;
-    }
-    100%{
-        top: 30px;
-    }
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 30px;
+  }
 }
 
-.chegada{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    object-fit: cover; 
-    border: 3px solid white;
-
+.chegada {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
 }
 
 .digitando {
-    color: #ff0000;
-    display: inline-block;
-    border-right: 2px solid rgb(255, 0, 0);
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    animation: typing 60s steps(24, end) infinite,
+  color: #ff0000;
+  display: inline-block;
+  border-right: 2px solid rgb(255, 0, 0);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 60s steps(24, end) infinite,
     blinkCursor 0.7s step-end infinite;
-    word-spacing: -0.3em;
+  word-spacing: -0.3em;
 }
 
 @keyframes typing {
-    0% {
-        width: 0;
-    }
-    5% {
-        width: 24.5ch; 
-    }
-    100% {
-        width: 24.5ch; 
-    }
+  0% {
+    width: 0;
+  }
+  5% {
+    width: 24.5ch;
+  }
+  100% {
+    width: 24.5ch;
+  }
 }
 
-@keyframes blinkCursor  {
-    0%, 100% {
-        border-color: transparent;
-    }
-    50% {
-        border-color: rgb(255, 255, 255);
-    }
+@keyframes blinkCursor {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+  }
 }
-
-
- 
-
-
-
