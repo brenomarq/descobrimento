@@ -1,64 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    padding: 40px 0;
-  }
-  
-  header > .interface {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  header a {
-    color: #5c5c5c;
-    text-decoration: none;
-    display: inline-block;
-    transition: 0.2s;
-  }
-  
-  header a:hover {
-    color: #fff;
-    transform: scale(1.09);
-  }
-  
-  header nav ul {
-    text-align: center;
-    width: 100%;
-    list-style-type: none;
-  }
-  
-  header nav ul li {
-    display: inline-block;
-    padding: 0 70px;
-  }
-  
-  header .contato button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: chartreuse;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  header .contato button:hover {
-    box-shadow: 0px 0px 8px rgb(128, 255, 0);
-  }
-  
-  .Rd {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid white;
-  }
+header {
+  padding: 40px 0;
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #5c5c5c;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: #fff;
+  transform: scale(1.09);
+}
+
+header nav ul {
+  text-align: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 70px;
+}
+
+header .contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: chartreuse;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+header .contato button:hover {
+  box-shadow: 0px 0px 8px rgb(128, 255, 0);
+}
+
+.Rd {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
   
 
   .principal {
