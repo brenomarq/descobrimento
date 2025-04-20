@@ -5,53 +5,61 @@
   }
   
   header {
-    background-color: #5B7F58;
-    padding: 10px 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 0;
   }
   
-  header div {
-    max-width: 1200px;
-    margin: 0 auto;
+  header > .interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   
-  .logo {
-    height: 60px;
+  header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
   }
   
-  ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
+  header a:hover {
+    color: #fff;
+    transform: scale(1.09);
   }
   
-  ul li {
-    font-size: 20px;
-    color: #333;
+  header nav ul {
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    padding: 0 70px;
+  }
+  
+  header .contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: chartreuse;
+    border: 0;
+    border-radius: 30px;
     cursor: pointer;
-    transition: color 0.3s;
+    transition: 0.3s;
   }
   
-  ul li:hover {
-    color: white; /* Efeito hover */
+  header .contato button:hover {
+    box-shadow: 0px 0px 8px rgb(128, 255, 0);
   }
   
-  button {
-    padding: 10px 20px;
-    background-color: #423F3E;
-    color: white;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  .Rd {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
   }
   
-  button:hover {
-    background-color: #222020;
-  }
 
   .principal {
     display: grid;
